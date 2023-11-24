@@ -1,6 +1,6 @@
 # Aplicação de chat no mininet
 
-Este projeto opera em uma topologia circular, onde 6 hosts estão conectados em 4 switchs e todos eles conseguem se enxergar através do Spanning Tree Protocol (STP).   
+Este projeto opera em uma topologia circular, onde 6 hosts estão conectados em 4 switches e todos eles conseguem se enxergar através do Spanning Tree Protocol (STP).   
 
 ## Funcionamento
 
