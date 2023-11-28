@@ -2,7 +2,7 @@ import socket
 import time
     
 def discover_servers():
-    ENDERECO_BROADCAST = '10.0.0.255'
+    ENDERECO_BROADCAST = '10.255.255.255'
     PORTA_BROADCAST = 5000
     mensagem_broadcast = "Sonda"
     

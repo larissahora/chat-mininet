@@ -7,12 +7,12 @@ class ExtendedTopo(Topo):
 
     def build(self):
         # Add hosts, switches, and routers
-        h1 = self.addHost('h1', ip='10.0.0.1/24')
-        h2 = self.addHost('h2', ip='10.0.0.2/24')
-        h3 = self.addHost('h3', ip='10.0.0.3/24')
-        h4 = self.addHost('h4', ip='10.0.0.4/24')
-        h5 = self.addHost('h5', ip='10.0.0.5/24')
-        h6 = self.addHost('h6', ip='10.0.0.6/24')
+        h1 = self.addHost('h1', ip='10.1.0.0/8')
+        h2 = self.addHost('h2', ip='10.2.0.0/8')
+        h3 = self.addHost('h3', ip='10.3.0.0/8')
+        h4 = self.addHost('h4', ip='10.4.0.0/8')
+        h5 = self.addHost('h5', ip='10.5.0.0/8')
+        h6 = self.addHost('h6', ip='10.6.0.0/8')
 
         s1 = self.addSwitch('s1', cls=OVSSwitch)
         s2 = self.addSwitch('s2', cls=OVSSwitch)
